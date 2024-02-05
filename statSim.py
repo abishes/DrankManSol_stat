@@ -3,7 +3,7 @@ import numpy as np
 from matplotlib import pyplot as plt
 N = 1000
 displacement=[]
-for j in range(0,N):
+for j in range(N+1):
     thita = np.random.randint(361, size=N)
     x = np.cos(thita)
     y = np.sin(thita)
